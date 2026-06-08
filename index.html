@@ -11,10 +11,10 @@
 <style>
   :root{
     --bg:#0b0b0d; --fg:#f5f5f5; --muted:#9a9aa3; --card:#141418; --border:#26262d;
-    --primary:#e11d2e; --primary-2:#ff4d3d; --primary-fg:#ffffff;
+    --primary:#7c3aed; --primary-2:#a855f7; --primary-fg:#ffffff;
     --grad-primary:linear-gradient(135deg,var(--primary),var(--primary-2));
     --grad-hero:linear-gradient(180deg,rgba(11,11,13,.55) 0%,rgba(11,11,13,.85) 70%,var(--bg) 100%);
-    --shadow-glow:0 10px 40px -10px rgba(225,29,46,.5);
+    --shadow-glow:0 10px 40px -10px rgba(124,58,237,.5);
     --shadow-card:0 20px 50px -20px rgba(0,0,0,.6);
   }
   *{box-sizing:border-box}
@@ -79,7 +79,7 @@
   .plans{display:grid;grid-template-columns:1fr;gap:24px}
   @media(min-width:768px){.plans{grid-template-columns:repeat(3,1fr)}}
   .plan{position:relative;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:32px;display:flex;flex-direction:column}
-  .plan.featured{border-color:rgba(225,29,46,.4);box-shadow:var(--shadow-glow)}
+  .plan.featured{border-color:rgba(124,58,237,.4);box-shadow:var(--shadow-glow)}
   .plan .badge{position:absolute;top:-12px;left:32px;font-size:10px;letter-spacing:.2em;padding:4px 12px;border-radius:999px;background:var(--grad-primary);color:var(--primary-fg)}
   .price{font-family:'Anton';font-size:48px;margin-top:24px}
   .price small{font-family:'Inter';font-size:14px;color:var(--muted);font-weight:400;margin-left:8px}
